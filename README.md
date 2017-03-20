@@ -4,8 +4,8 @@ Generate a CSV file that indicates which priority a program or agency belongs to
 This script uses the `names_by_year.csv` file from the [Georgian Budget - Unique Names by Year repo](https://github.com/JumpStartGeorgia/Georgian-Budget-Unique-Names-by-Year). The script assumes that the Georgian Budget - Unique Names by Year repo is in a folder at the same level as this repo and the folder name is Georgian-Budget-Unique-Names-by-Year.
 
 To run the script:
-* Make sure the `priorities.csv` file has the full list of all the possible priorities ([learn more]())
-* Update the `priority_program_mapping.csv` file ([learn more]()) 
+* Make sure the `priorities.csv` file has the full list of all the possible priorities ([learn more](#prioritiescsv---a-list-of-priorities))
+* Update the `priority_program_mapping.csv` file ([learn more](#priority_program_mappingcsv---a-list-of-programsagencies-in-each-priority)) 
 * Pull the latest version of the Georgian Budget - Unique Names by Year repo
 * From the console type `ruby process_files.rb`
 * A file called `priority_associations.csv` will be generated
