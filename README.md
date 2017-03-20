@@ -25,4 +25,4 @@ This is a simple CSV file that lists the possible priorities and a code that rep
 # Priority_Program_Mapping.csv - a list of programs/agencies in each priority
 [The Georgia Budget File repo](https://github.com/JumpStartGeorgia/Georgian-Budget-Files) contains a [folder](https://github.com/JumpStartGeorgia/Georgian-Budget-Files/tree/master/files_from_government/priority_pdfs) that lists PDF files that are from the Ministry of Finance that indicate which programs/agencies are assigned to a priority for a given year. 
 
-Unfortunately, these PDF files are not easily parsed by code so this file has to be maintained by hand. When a priority PDF document is released, you will have to go through it and add the program/agency codes to the `priority_program_mapping.csv` file for the new year.
+Unfortunately, these PDF files are not easily parsed by code so this `priority_program_mapping.csv` file has to be maintained by hand. When a priority PDF document is released, you will have to go through it and add the program/agency codes to the file for the new year.
